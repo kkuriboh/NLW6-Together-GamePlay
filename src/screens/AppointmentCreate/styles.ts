@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
     },
     form: {
         paddingHorizontal: 24,
-        marginTop: 32,
+        marginTop: 32
     },
     select: {
         width: '100%',
@@ -33,13 +33,15 @@ export const styles = StyleSheet.create({
         width: 64,
         height: 68,
         backgroundColor: theme.colors.secondary50,
+        borderColor: theme.colors.secondary50,
         borderWidth: 1,
         borderRadius: 8
     },
     field: {
         width: '100%',
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
+        alignItems: "center",
         marginTop: 30
     },
     column: {

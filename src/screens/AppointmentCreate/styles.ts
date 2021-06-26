@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
     },
     form: {
         paddingHorizontal: 24,
-        marginTop: 32
+        marginTop: 32,
     },
     select: {
         width: '100%',
@@ -40,7 +40,7 @@ export const styles = StyleSheet.create({
     field: {
         width: '100%',
         flexDirection: 'row',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
         alignItems: "center",
         marginTop: 30
     },
@@ -57,11 +57,17 @@ export const styles = StyleSheet.create({
     limit: {
         fontFamily: theme.fonts.text400,
         fontSize: 13,
-        color: theme.colors.highlight
+        color: theme.colors.highlight,
+        marginBottom: -18,
+        marginRight: 20
     },
     footer: {
         marginVertical: 20,
         marginBottom: 56
+    },
+    ta: {
+        marginLeft: 20,
+        marginRight: 20
     }
 
 })

@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
         width: '100%',
         flexDirection: 'row',
         height: 68,
-        borderColor: theme.colors.secondary50,
+        borderColor: theme.colors.secondary70,
         borderWidth: 1,
         borderRadius: 8,
         alignItems: 'center',
@@ -27,12 +27,12 @@ export const styles = StyleSheet.create({
     },
     selectBody: {
         flex: 1,
-        alignItems: 'center',
+        alignItems: 'center'
     },
     image: {
         width: 64,
         height: 68,
-        backgroundColor: theme.colors.secondary50,
+        backgroundColor: theme.colors.secondary70,
         borderColor: theme.colors.secondary50,
         borderWidth: 1,
         borderRadius: 8

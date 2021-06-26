@@ -12,6 +12,7 @@ export type GuildProps = {
     name: string
     icon: string | null
     owner: boolean
+    banner: string | null
 }
 
 type Props = TouchableOpacityProps & {
